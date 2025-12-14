@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'EscapeFont';
+  src: url('{{ site.baseurl }}/assets/fonts/escapefrom.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*
+  white: #e8e9eb;
+  black: #191716;
+  red: #a44a3f;
+  green: #3f6c51;
+  yellow: #ffba08;
+  dark-yellow: #ae8e1c;
+  purple: #a288e3;
+*/
+
+body {
+  font-family: 'EscapeFont', sans-serif;
+  background-color: #e8e9eb;
+  color: #191716;
+  margin: 0;
+  padding: 0;
+}
