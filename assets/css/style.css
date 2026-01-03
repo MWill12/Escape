@@ -5,20 +5,20 @@
   font-style: normal;
 }
 
-/*
-  white: #e8e9eb;
-  black: #191716;
-  red: #a44a3f;
-  green: #3f6c51;
-  yellow: #ffba08;
-  dark-yellow: #ae8e1c;
-  purple: #a288e3;
-*/
+:root {
+  --white: #e8e9eb;
+  --black: #191716;
+  --red: #a44a3f;
+  --green: #3f6c51;
+  --yellow: #ffba08;
+  --dark-yellow: #ae8e1c;
+  --purple: #a288e3;
+ }
 
 body {
   font-family: 'EscapeFont', sans-serif;
-  background-color: #e8e9eb;
-  color: #191716;
+  background-color: var(--white);
+  color: var(--black);
   margin: 0;
   padding: 0;
 }
